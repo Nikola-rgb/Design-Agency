@@ -352,11 +352,9 @@ ul .nav-item .nav-link:hover{
     font-size: 1.1rem;
 }
 .forma{
-   height: 100%;
-   flex: 0 0 35%;
+   flex: 0 0 30%;
 }
 .forma .box{
-    width: 70%;
     box-shadow: 20px 20px 50px  rgba(0, 0, 0, 0.5);
     padding: 50px ;
     min-height: 450px;
