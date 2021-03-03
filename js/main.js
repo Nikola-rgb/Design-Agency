@@ -15,24 +15,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-
-
-
-
-       // ikonica za nav
-/*      
-    $('.navbar-toggler').html("<i class='fas fa-bars fa-2x' style='color:var(--primary)'></i>");
-
-    $(window).on('scroll', function() {
-        var scroll = $(window).scrollTop();
-        if(scroll >= 100) {
-            $('.sticky').addClass('stickyAdd');
-        } else {
-            $('.sticky').removeClass('stickyAdd');
-        }
-    })*/
     
-      // Animacija hover
+    // Animacija hover
       
 VanillaTilt.init(document.querySelector(".box"), {
 		max: 25,
@@ -40,5 +24,13 @@ VanillaTilt.init(document.querySelector(".box"), {
         glare: true,
 	});
 
+// Hamburger-menu
 
+const menuIcon = document.querySelector(".hamburger-menu");
+
+const navbar = document.querySelector(".nav-bar");
+
+menuIcon.addEventListener("click", () =>{
+    navbar.classList.toggle("change");
+});
 
