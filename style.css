@@ -468,6 +468,7 @@ footer .container{
         justify-content: center;
         align-items: center;
         border-radius: 50% 0 0 50%;
+        z-index: 1;
     } 
     .change{
         right: 0;
@@ -498,7 +499,6 @@ footer .container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   /* display: none;*/
 }
 .line{
     width: 100%;
@@ -544,7 +544,7 @@ footer .container{
     
     .about{
     display: flex;
-        flex-direction: column; 
+    flex-direction: column; 
     height: 100%;
     width: 100%;
 }
